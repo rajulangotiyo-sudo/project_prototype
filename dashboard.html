@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TaskFlow - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="layout">
+
+    <div class="sidebar">
+        <h3>TaskFlow</h3>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="manage-task.html">Manage Task</a>
+        <a href="profile.html">Profile</a>
+        <a href="signin.html">Logout</a>
+    </div>
+
+    <div class="main">
+
+        <h2>Recommended Tasks</h2>
+        <div class="section">
+            <p><strong>Prepare Exam Notes</strong></p>
+            <p class="high">Priority: 90 / 100</p>
+        </div>
+
+        <h2>All Tasks</h2>
+        <div class="section">
+            <table>
+                <tr>
+                    <th>Task Name</th>
+                    <th>Type</th>
+                    <th>Deadline</th>
+                    <th>Priority</th>
+                </tr>
+                <tr>
+                    <td>Prepare Exam Notes</td>
+                    <td>Academics</td>
+                    <td>Tomorrow</td>
+                    <td class="high">90</td>
+                </tr>
+                <tr>
+                    <td>Client Follow-up</td>
+                    <td>Business</td>
+                    <td>In 2 Days</td>
+                    <td class="medium">65</td>
+                </tr>
+                <tr>
+                    <td>Gym</td>
+                    <td>Personal</td>
+                    <td>Today</td>
+                    <td class="low">30</td>
+                </tr>
+            </table>
+            <p style="margin-top:8px;">
+                To edit or remove a task, go to <strong>Manage Task</strong>.
+            </p>
+        </div>
+
+        <h2>Daily Habits</h2>
+        <div class="section">
+            <div class="habit"><input type="checkbox"> Drink Water</div>
+            <div class="habit"><input type="checkbox"> Exercise</div>
+            <div class="habit"><input type="checkbox"> Read 30 Minutes</div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
